@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    margin-top: 20px;
+}
+.logo{
+    font-size: 30px;
+    color:rgb(11, 11, 105);
+
+}
+
+.icon{
+    margin-top:25px;
+    border: 1px solid;
+    border-radius: 100%;
+    color:rgb(11, 11, 105);
+}
+.icon > i{
+    margin-left: 3px;
+}
+.number{
+    margin-top: 15px;
+} 
+
+/*navigation-BAR */
+.nav{
+    margin-top: 15px;
+}
+.navigation{
+    padding: 0;
+}
+.bar{
+    display: inline;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* banner-section */
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0, 0,0.9)),url("../img/background-01.jpg");
+    height:500px;
+    background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-heading{
+    color: white;
+}
+
+/* third section */
+/*left-section */
+.third{
+    margin-top: 60px;
+}
+.para1{
+    margin-top: 30px;
+}
+.para2{
+    text-align: justify;
+}
+.button2{
+    padding: 10px;
+    color: white;
+    width: 150px;
+    background-color:rgb(66, 66, 153);
+}
+
+.img1{
+    margin-top: 60px;
+    border: 2px groove ;
+    
+}
+.img2 > img{
+    width:95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* banner2 section */
+.banner2{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(66, 66, 153  )),url("../img/background-02.jpg");
+    height:300px;
+    margin-top: 50px;
+    background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner2-text{
+    color: white;
+    
+    
+}
+.para3{
+    margin-left:100px ;
+    margin-right: 100px;
+}
+
+/* Mauris was a clinical foot */
+
+.heading2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section1{
+   margin-top: 20px;
+    text-align: center;
+}
+.section-about{
+    
+    background-color:rgb(66, 66, 153);
+    padding: 20px;
+    color: white;
+    position: relative;
+    
+    
+}
+.icon2{
+    position: absolute;
+    bottom: 170px;
+    left: 10px;
+    border: 1px solid ;
+    border-radius:50%;
+    color: black;
+    width: 45px;
+    padding: 10px;
+    background-color: white;
+    z-index:0; 
+    box-shadow: 3px 5px 10px 5px;
+  
+    
+}
+.icon3{
+    color: white;
+    font-size: 20px;
+}
+
+.section2{
+   
+    text-align: center;
+    margin-top: 20px;
+}
+.section-about22{
+    background-color:rgb(7, 7, 56);
+    padding: 20px;
+    color: white;
+    position: relative;
+    
+    
+}
+.icon22{
+    position: absolute;
+    bottom: 170px;
+    left: 10px;
+    border: 1px solid ;
+    border-radius:50%;
+    width: 45px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    z-index:0; 
+    box-shadow: 3px 5px 10px 5px;
+  
+    
+}
+.icon33{
+    color: white;
+    font-size: 20px;
+}
+
+/* banner3 */
+.banner3{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(66, 66, 153  )),url("../img/background-02.jpg");
+        height:200px;
+        margin-top: 50px;
+        background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .heading4{
+        color: white;
+        margin-right: 100px;
+    }
+    .button3{
+        margin-left: 200px;
+        padding:7px;
+        width: 200px;
+    }
+    .heading5{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    /* Home workre-section */
+    .about-team{
+        border:1px solid white;
+        box-shadow: 5px 5px 5px 10px grey ;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .img3 >img{
+        border-radius: 100%;
+        width: 200px;
+        margin-top: 10px;
+     }
+     .heading6{
+         margin-top: 20px;
+     }
+     .para5{
+         font-size:x-small;
+     }
+     .icon4>i{
+         font-size: 25px;
+         padding: 10px;
+     }
+     .about-team1{
+        border:1px solid white;
+        box-shadow: 5px 5px 5px 10px grey ;
+        text-align: center;
+        margin-top: 60px;
+        height: 425px;
+     }
+     
+     /* Member */
+     .member{
+         background-color: rgb(196, 190, 190);
+
+     }
+    .member >p{
+        padding: 10px;
+    }
+    .img4 >img{
+        border-radius: 100%;
+    }
+    
+    .button6 >button{
+        margin-top:  60px;
+        padding: 7px;
+        background-color: rgb(66, 66, 153);
+        color: white;
+        width: 100px;
+        text-align: center;
+    }
+
+    /*footer1*/
+    .footer1{
+        background-color: rgb(196, 190, 190);
+        width: 100%;
+        height: 500px;
+    }
+    .heading7{
+        color: rgb(66, 66, 153);
+        
+        margin-top: 15px;
+    }
+    .para8 > p{
+        text-align: justify;
+    }
+    .icon6{
+        margin-top: 60px;
+    }
+    
+    /* Complete footer section */
+    footer{
+        width: 100%;
+        background-color: rgb(15, 14, 14);
+        height: 450px;
+        
+    }
+    .icon7 {
+        margin-top: 60px;
+    }
+    .icon7 > i{
+    font-size: 35px;
+    color: rgb(66, 66, 153);;
+    }
+    .para9{
+        text-align: justify;
+        color: white;
+        margin-top: 40px;
+    }
+    .icon8 {
+        margin-top: 20px;
+    }
+    .icon8 >i{
+        background-color:white; 
+        padding: 10px;
+    }
+    .address{
+        text-align: center;
+        margin-top: 55px;
+       color: white;
+    }
+    .address1{
+        text-align: center;
+        
+        margin-right: 70px;
+       color: white;
+    }
+    
+    .content{
+        margin-top: 30px;
+        color: white;
+    }
+    .content1{
+        
+        color:white;
+    }
+    .last-footer{
+        background-color: black;
+        color:white;
+        height: 100px;
+
+    }
+    .fl{
+        margin-top: 10px;
+    }

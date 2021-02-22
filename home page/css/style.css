@@ -1,0 +1,187 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+h5{
+    margin-top: 15px;
+    
+}
+.top-bar{
+    float: right;
+    
+    margin-top: 15px;
+}
+#navi{
+    width: 100%;
+    background-color:rgb(63, 49, 156);
+    color: white;
+}
+/*NAVIGATION BAR*/
+
+ .navigation{
+    display:flex ;
+    padding: 0;
+    margin-top:5px;
+    }
+    .bar{
+        list-style-type: none;
+    color: white;
+    padding: 10px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+    }
+
+    .banner{
+        background-image: linear-gradient(#7e7777a6,#7e7777a6),url("../img/slider\ img.jpg");     
+       height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .heading-banner{
+        color: white;
+        font-weight:800;
+        font-family: sans-serif;
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    
+    .button-banner{
+     background-color: rgb(247, 79, 18);   
+     color: white;
+     width: 150px;
+     font-weight: 650;
+     padding: 7px;
+    }
+  /*works section*/
+  .workers >img{
+      width: 100%;
+  }
+  #work-about{
+      text-align: center;
+      justify-content: center;
+      color: blue;
+  }
+  p{
+      text-align:justify;
+      text-align: center;
+      
+  }
+  /*featured-project*/
+  #featured-project{
+    background-color:rgb(63, 49, 156);
+      width: 100%;
+      height: 500px;
+      
+  }
+  .featured{
+      text-align: center;
+      color: white;
+      margin-top: 50px;
+  }
+  .project >img{
+      width: 100%;
+      margin-top: 25px;
+  }
+
+/* ABOUT CLIENT */
+
+.about-client{
+    text-align: center;
+    color: blue;
+    margin-top: 50px;
+}
+
+.client{
+    background-color: rgb(211, 208, 208);
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.client >p{
+    padding: 40px;
+    text-align: justify;
+    }
+
+    /* client photo */
+    .client1{
+        color: blue;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    span{
+       color: black;
+       margin-right: 10px;
+    }
+    #from{
+        color: black;
+        margin-right: 50px;
+    }
+
+    /* footer */
+
+    #footer{
+        background-color:rgb(63, 49, 156);
+        width: 100%;
+        height: 200px;
+    }
+    .Address{
+        margin-top: 85px;
+    }
+    b{
+         
+        color: white;
+        
+    }
+    .full-address{
+        color: white;
+        
+        
+        padding: 0;
+    }
+    h6{
+        margin-left: 30px;
+        color: white;
+        text-align: center;
+    }
+    .icon{
+        font-size: 20px;
+        margin-top: 90px;
+        color: white;
+        text-align: center;
+    }
+
+  /* Lower Navigation */
+
+    .navigation1{
+        display:flex ;
+        padding: 0;
+        margin-top:5px;
+        text-align: center;
+        justify-content: center;
+        }
+        .bar1{
+            list-style-type: none;
+        
+        padding: 10px;
+        }
+       .bar1 > a{
+            color:blue;
+            text-decoration: none;
+        }
+       .bar1 > a:hover{
+            color:blue;
+        }
+    
